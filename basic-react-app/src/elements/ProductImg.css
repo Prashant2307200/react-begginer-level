@@ -1,0 +1,11 @@
+.ProductImg{
+    border-radius: inherit;
+    min-height: 100%;
+}
+
+.ProductImg img{
+    border-radius: inherit;
+    min-height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

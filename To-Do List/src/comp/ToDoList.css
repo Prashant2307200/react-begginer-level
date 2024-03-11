@@ -1,0 +1,35 @@
+.ToDoList{
+    background-color: #f2f2f2;
+    min-height: 300px;
+    padding: 2rem;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px #888;
+    &>input{
+        border: none;
+        color: black;
+        background-color: #f2f2f2;
+        padding: .5rem;
+        border-radius:.5rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin: 1rem;
+    }
+    &>button{
+        border-radius:.5rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+        background-color: rgb(253, 116, 62);
+        margin: 1rem;
+        padding: .5rem;
+        color: white;
+        border: none;
+    }
+    &>ul{
+        text-align: left;
+        font-size: 1.75rem;
+        font-family: 'system-ui';
+        font-weight:600;
+    }
+}

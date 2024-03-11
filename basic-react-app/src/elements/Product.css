@@ -1,0 +1,14 @@
+.Product{
+    color: black;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    display: flex;
+    width: 900px;
+}
+.Product .product-content{
+    display: grid;
+    grid-auto-flow: row;
+    place-content: center;
+    width: 100%;
+}
+
